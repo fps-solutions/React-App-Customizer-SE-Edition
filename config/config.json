@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-app-customizer-se-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/reactAppCustomizerSe/ReactAppCustomizerSeApplicationCustomizer.js",
+          "manifest": "./src/extensions/reactAppCustomizerSe/ReactAppCustomizerSeApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactAppCustomizerSeApplicationCustomizerStrings": "lib/extensions/reactAppCustomizerSe/loc/{locale}.js"
+  }
+}
